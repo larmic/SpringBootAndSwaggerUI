@@ -1,0 +1,7 @@
+# REFERENCE: http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+server:
+  # for setting context path to "/" an empty value must be set here
+  context-path: /
+  #servlet-path: /rest
+  port: 8080
