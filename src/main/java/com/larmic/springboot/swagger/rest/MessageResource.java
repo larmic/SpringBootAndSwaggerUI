@@ -13,7 +13,7 @@ public class MessageResource {
     })
     @RequestMapping(value = "/api/message", method = RequestMethod.POST,
             consumes = {"application/json", "application/xml"})
-    public void sendMessageToGroup(@RequestBody MessageDto message) {
+    public void sendMessage(@RequestBody MessageDto message) {
         System.out.println("ping");
     }
 }

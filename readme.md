@@ -9,14 +9,13 @@ Simple example to check out why @RequestBody is displayed as string data type (i
 
 ## Getting started
 
-### Maven and java
 ```
 git clone https://github.com/larmic/SpringBootAndSwaggerUI
 mvn clean package
 mvn spring-boot:run
 ```
 
-and open ```http://localhost:8080/swagger-ui.html#!/message-resource/sendMessageToGroupUsingPOST``
+and open ```http://localhost:8080/swagger-ui.html#!/message-resource/sendMessageUsingPOST``
 
 ## Problem
 
