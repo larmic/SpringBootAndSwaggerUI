@@ -15,7 +15,7 @@ mvn clean package
 mvn spring-boot:run
 ```
 
-and open ```http://localhost:8080/swagger-ui.html#!/message-resource/sendMessageUsingPOST``
+and open ``http://localhost:8080/swagger-ui.html#!/message-resource/sendMessageUsingPOST``
 
 ## Problem
 
